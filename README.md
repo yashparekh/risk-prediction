@@ -1,1 +1,2 @@
-# risk-prediction
+The data in the file “car_sales.csv” contains data from 10,062 car auctions. Auto dealers purchase used cars at auctions with the plan to sell them to consumers, but sometimes these auctioned vehicles can have severe issues that prevent them from being resold. The data contains information about each auctioned vehicle (for instance: the make, color, and age, among other variables). See http://www.kaggle.com/c/DontGetKicked for documentation on the problem.
+I developed linear and logistic regression models to predict the target variable “IsBadBuy”, which labels whether a car purchased at auction was a “bad buy” or not. The intended use case for this model is to help an auto dealership decide whether or not to purchase an individual vehicle
